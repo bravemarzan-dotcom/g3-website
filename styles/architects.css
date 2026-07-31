@@ -105,6 +105,7 @@ main > section{
 @media screen and (max-width: 768px) {
     .bg-light{
         padding: 20px;
+        display: flex;
     }
     
 }
@@ -114,6 +115,7 @@ main > section{
 @media screen and (max-width: 480px) {
 .bg-light{
         padding: 20px;
+        display: flex;
 }
 
 }
