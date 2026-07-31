@@ -101,6 +101,23 @@ main > section{
     margin-bottom: 20px;
 }
 
+/* tab */
+@media screen and (max-width: 768px) {
+    .bg-light{
+        padding: 20px;
+    }
+    
+}
+
+/* mob */
+
+@media screen and (max-width: 480px) {
+.bg-light{
+        padding: 20px;
+}
+
+}
+
 /* team and feature related styles */
 .teams{
     align-items: center;
