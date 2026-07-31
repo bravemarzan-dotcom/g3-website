@@ -8,7 +8,6 @@
   font-style: normal;
 }
 
-/* shared styles */
 .display-flex{
     display: flex;
 }
@@ -17,12 +16,11 @@
     color: #4268a5
 }
 
-/* dark 02 */
 .text-gray{
     color: #424242;
 }
 
-/* dark03 */
+
 .text-light-gray{
     color: #727272;
 }
@@ -55,9 +53,7 @@ main > section{
     font-weight: 700;
 }
 
-/* header styles */
 
-/* navbar related styles */
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -82,7 +78,7 @@ main > section{
     margin: 0 auto;
 }
 
-/* banner related styles */
+
 .banner-content{
     max-width: 850px;
     margin: 0 auto;
@@ -101,7 +97,7 @@ main > section{
     margin-bottom: 20px;
 }
 
-/* tab */
+
 @media screen and (max-width: 768px) {
     .bg-light{
         padding: 20px;
@@ -110,7 +106,7 @@ main > section{
     
 }
 
-/* mob */
+
 
 @media screen and (max-width: 480px) {
 .bg-light{
@@ -120,7 +116,7 @@ main > section{
 
 }
 
-/* team and feature related styles */
+
 .teams{
     align-items: center;
 }
@@ -147,7 +143,6 @@ main > section{
     font-weight: 500;
 }
 
-/* features section related styles */
 
 .features{
     gap: 140px;
@@ -191,7 +186,7 @@ main > section{
     border-radius: 20px;
 }
 
-/* some facts related styles */
+
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -224,7 +219,7 @@ main > section{
 }
 
 
-/* sponsor related styles */
+
 .sponsor-info{
     max-width: 540px;
     margin: 50px auto;
@@ -241,7 +236,6 @@ main > section{
 }
 
 
-/* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, 
     .nav-links, 
@@ -277,7 +271,6 @@ main > section{
     }
 }
 
-/* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
     .teams, .features{
         flex-direction: column;
@@ -322,7 +315,7 @@ main > section{
     line-height: 1.6;
 }
 
-/* Tablet */
+
 @media screen and (max-width: 768px) {
     .fot {
         width: 95%;
@@ -338,7 +331,7 @@ main > section{
     }
 }
 
-/* Mobile */
+
 @media screen and (max-width: 480px) {
     .fot {
         width: 95%;
